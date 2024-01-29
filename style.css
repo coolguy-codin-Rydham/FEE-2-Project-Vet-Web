@@ -1,53 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
 }
 
 /* Header */
 
-.header{
-    height: 10vh;
-    width: 100vw;
-    background-color: gray;
+.header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #eaae00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Hero */
-
-.hero{
-    height: 90vh;
-    width: 100vw;
-    background-color: #d6d6d6;
+.innerContainer {
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* part2 */
-
-.part2{
-    height: 70vh;
-    width: 100vw;
-    background-color: gray;
+.navbar {
+  display: flex;
+  list-style-type: none;
+  gap: 4rem;
 }
 
-/* part3 */
-
-.part3{
-    height: 90vh;
-    width: 100vw;
-    background-color: #d6d6d6;
+.navbar > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
 }
 
-/* part4 */
-
-.part4{
-    height: 70vh;
-    width: 100vw;
-    background-color: gray;
+.navbar > li > a:hover{
+    text-decoration: underline;
 }
 
-/* part5 */
-
-.part5{
-    height: 90vh;
-    width: 100vw;
-    background-color: #d6d6d6;
+.searchBar {
+  display: flex;
+}
+.image {
+  height: 30px;
+}
+.imagediv {
+  background: blue;
+}
+.search {
+  background-color: #ffc400;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+  height:  3rem;
+  width: 20rem;
 }
