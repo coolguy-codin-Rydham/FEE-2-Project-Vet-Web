@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Header */
@@ -39,25 +38,40 @@
   font-size: 2rem;
 }
 
-.navbar > li > a:hover{
-    text-decoration: underline;
+.navbar > li > a:hover {
+  text-decoration: underline;
 }
 
 .searchBar {
   display: flex;
+  overflow: hidden;
 }
 .image {
-  height: 30px;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 .imagediv {
-  background: blue;
+  background: #00bbc6;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .search {
   background-color: #ffc400;
   border: none;
   outline: none;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 4px;
   color: white;
-  height:  3rem;
+  height: 3rem;
   width: 20rem;
+}
+.search::placeholder {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
