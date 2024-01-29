@@ -4,31 +4,48 @@
     box-sizing: border-box;
 }
 
+/* Header */
+
 .header{
     height: 10vh;
     width: 100vw;
     background-color: gray;
 }
+
+/* Hero */
+
 .hero{
     height: 90vh;
     width: 100vw;
     background-color: #d6d6d6;
 }
+
+/* part2 */
+
 .part2{
     height: 70vh;
     width: 100vw;
     background-color: gray;
 }
+
+/* part3 */
+
 .part3{
     height: 90vh;
     width: 100vw;
     background-color: #d6d6d6;
 }
+
+/* part4 */
+
 .part4{
     height: 70vh;
     width: 100vw;
     background-color: gray;
 }
+
+/* part5 */
+
 .part5{
     height: 90vh;
     width: 100vw;
