@@ -1,0 +1,60 @@
+/* Part6 */
+.part6 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.innerContainerPart6{
+    max-width: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+.HeadingP6{
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.PContentP6{
+    text-align: center;
+    font-size: 35px;
+}
+
+.ImagesStaff{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+}
+
+.dr{
+    display: flex;
+    flex-direction: column;
+}
+
+.contentImgP6{
+    padding-top:1.5rem;
+
+}
+.contentImgP6>h3{
+    font-size: 30px;
+    text-align: center;
+}
+.vete6{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Part6 */

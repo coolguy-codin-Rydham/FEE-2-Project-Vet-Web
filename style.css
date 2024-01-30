@@ -174,6 +174,15 @@
   background-color: #00bcc6a1;
   transition: 0.3s;
 }
+
+.dogImage>img{
+  transition: 0.3s;
+}
+
+.dogImage:hover>img{
+  transform: rotateY(180deg);
+  transition: 0.3s;
+}
 /* Hero */
 
 /* Part2 */
@@ -246,7 +255,7 @@
   background: #ffc400;
   height: 48.6%;
   width: 26.6%;
-  opacity: 0.5;
+  opacity: 0.4;
   /* scale: 1.2; */
   position: absolute;
   box-shadow: 10px 10px 10px #ac8400;
@@ -305,6 +314,14 @@
   /* width: 50%; */
 }
 
+.imageCard{
+  z-index: 99999;
+}
+
+.imageCard>img:hover{
+  box-shadow: 20px 20px 30px #e9e8e8;
+}
+
 .ServiceCards{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -334,3 +351,132 @@
 
 
 /* Part3 */
+
+/* Part4 */
+
+.part4{
+  height: 80vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coverer2{
+  background: #ffc400;
+  height: 48.6%;
+  width: 26.6%;
+  opacity: 0.4;
+  /* scale: 1.2; */
+  position: absolute;
+  box-shadow: 10px 10px 10px #ac8400;
+  /* z-index: 20; */
+}
+
+.baba2{
+  background-color: #ffc400;
+  /* height: 40px;
+  width: 40px; */
+  height: 24.3%;
+  width: 13.3%;
+  position: absolute;
+  /* right: 32%; */
+  left: 26.5%;
+  top: 325%;
+  z-index: -10;
+  box-shadow: inset 1px 1px 10px 1px #ac8400b2;
+  /* top: 50%; */
+}
+.content4{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  text-align: right;
+}
+
+.ServiceButton4{
+  width: 10rem;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffc400;
+  margin-top: 1rem;
+  border:none;
+  outline: none;
+  color:white;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ServiceButton4:hover{
+  background-color: #c09300;
+  transition: 0.3s;
+}
+.image4{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 20;
+}
+
+
+/* Part4 */
+
+/* Part5 */
+.part5{
+  height: 100vh;
+  width: 100%;
+  background-color: #ffc400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* padding-left: 5rem;
+  padding-right: 5rem; */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.innerContainerPart5{
+  max-width: 80%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.BuyButton{
+  background-color: #00bbc6;
+  padding-left: 30px;
+  padding-right:  30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buttonP5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.extraBttn{
+  border-radius: 100px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.Price{
+  padding-bottom: 20px;
+}
+
+/* Part5 */
