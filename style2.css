@@ -234,6 +234,12 @@
 /* Part8 */
 
 /* Footer */
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
 
 .footer{
     background-color: #303130;
@@ -350,3 +356,5 @@
     transition: 0.3s;
     padding: 10px;
 }
+
+
