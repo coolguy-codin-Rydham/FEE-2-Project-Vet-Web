@@ -232,3 +232,50 @@
 }
 
 /* Part8 */
+
+/* Footer */
+
+.footer{
+    background-color: #303130;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.YeGridBanega{
+    max-width: 80%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) 2fr;
+    place-items: center;
+    gap: 50px;
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+}
+.innerContainerFooter{
+    max-width: 80%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutHeading,.AboutList,.ServicesHeading,.ServiceList,.ContactHeading,.ContactContent{
+    color: white;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.socialsAgain{
+    display: flex;
+}
