@@ -96,8 +96,8 @@
 .Sasuke{
     width: 100%;
     height: 100%;
-    background-color: #ffc400;
-    opacity: 0.8;
+    background-color: #ffc400af;
+    /* opacity: 0.8; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -131,3 +131,104 @@
     text-align: center;
     font-size: 30px;
 }
+
+/* Part7 */
+
+/* Part8 */
+.part8{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.innerContainerPart8{
+    max-width: 80%;
+    height: 100%;
+    width: 100%;
+
+}
+.contentP8{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contentP8>h1{
+    font-size: 75px;
+    padding-bottom: 20px;
+}
+.contentP8>p{
+    font-size: 35px;
+}
+.CardsP8{
+    display: flex;
+    justify-content: space-around;
+    gap:600px;
+    padding-top: 50px;
+    /* height: 100%; */
+}
+.postCard{
+    display: flex;
+    flex-direction: column;
+}
+.CardsContentClass{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    padding:2rem;
+    border-left:4px solid #d6d6d6;
+    border-bottom:4px solid #d6d6d6;
+    border-right:4px solid #d6d6d6;
+    gap:20px;
+}
+
+.postCard2{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 1000;
+    background: #fff;
+    position: absolute;
+    /* bottom :10px; */
+}
+
+.CardsContentClass2{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    /* background-color: #fff; */
+    z-index: 1000;
+    gap:20px;
+  
+}
+
+.Just1>h3{
+    font-size: 25px;
+}
+.Just1>p{
+    color: #00bec9;
+    font-weight: 500;
+}
+
+.Just2{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.Just2>:nth-child(1){
+    font-size: smaller;
+}
+.Just2>:nth-child(2){
+    font-size: large;
+    font-weight: 600;
+    color: #00bec9;
+    text-decoration: none;
+}
+
+/* Part8 */
